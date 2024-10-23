@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>César y Vigenère</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cifrados</h1>
+
+        <div class="section">
+            <h2>Mostrar Abecedario</h2>
+            <button id="mostrar-abecedario">Mostrar Abecedario</button>
+            <p id="resultado-abecedario"></p>
+        </div>
+
+        <div class="section">
+            <h2>Mostrar Matriz Vigenère</h2>
+            <button id="mostrar-matriz">Mostrar Matriz</button>
+            <pre id="resultado-matriz"></pre>
+        </div>
+        
+
+        <div class="section">
+            <h2>Cifrado César</h2>
+            <input type="text" id="cesar-texto" placeholder="Texto a cifrar/descifrar">
+            <input type="number" id="cesar-clave" min="1" max="25" placeholder="Clave (1-25)">
+            <button id="cifrar-cesar">Cifrar</button>
+            <button id="descifrar-cesar">Descifrar</button>
+            <p id="resultado-cesar"></p>
+        </div>
+
+        <div class="section">
+            <h2>Cifrado Vigenère</h2>
+            <input type="text" id="vigenere-texto" placeholder="Texto a cifrar/descifrar">
+            <input type="text" id="vigenere-clave" placeholder="Clave">
+            <button id="cifrar-vigenere">Cifrar</button>
+            <button id="descifrar-vigenere">Descifrar</button>
+            <p id="resultado-vigenere"></p>
+        </div>
+    </div>
+
+    <script src="ArchTest.js"></script>
+</body>
+</html>
